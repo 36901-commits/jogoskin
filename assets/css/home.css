@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #526476;
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+main {
+    width: 100%;
+
+    min-height: 100vh;
+}
+
+
+header {
+    width: 100%;
+
+    height: 13vh;
+
+    background: #dce3e9;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-bottom: 2px solid #aebbc7;
+}
+
+header h1 {
+    color: #34414f;
+
+    font-size: 2rem;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+
+    text-align: center;
+}
+
+
+.game {
+    width: 100%;
+
+    height: 38vh;
+
+    padding: 2vh 2.4vw;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+.game h2 {
+    color: #e8edf2;
+
+    font-size: 1rem;
+
+    margin-bottom: 1.5vh;
+
+    letter-spacing: 1px;
+}
+
+
+#cs2 {
+    background: #526476;
+}
+
+
+#valorant {
+    background: #5b6c7d;
+}
+
+
+.skins {
+    width: 100%;
+
+    flex: 1;
+
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+
+    gap: 1.6vw;
+}
+
+
+.skin {
+    width: 100%;
+
+    height: 100%;
+
+    background: #dce3e9;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    border: 1px solid #aebbc7;
+
+    box-shadow: 0 2px 5px #141e2840;
+
+    transition: transform 0.2s;
+}
+
+
+.skin img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+.skin:hover {
+    transform: scale(1.02);
+}
+
+
+footer {
+    width: 100%;
+
+    height: 11vh;
+
+    background: #34414f;
+
+    color: #e8edf2;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-top: 1px solid #697a8b;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
